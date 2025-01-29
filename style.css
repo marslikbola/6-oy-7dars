@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  header {
+    height: 80px;
+    border-bottom: 2px solid #dedbdb;
+  }
+  
+  .navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .til {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .section-one {
+    width: 650px;
+    height: 746px;
+    border-radius: 50px;
+    border: 1px solid #dedbdb;
+    margin-top: 40px;
+    padding: 60px;
+  }
+  
+  .section-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .abdunur_sila {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .abdunur_sila h5 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #f0400f;
+  }
+  
+  h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0e0d5d;
+    margin-top: 131px;
+  }
+  
+  .choose {
+    height: 70px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    margin-top: 25px;
+    padding: 8px 20px;
+  
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .parents{
+      color: #757575;
+  
+  }
+  
+  .student{
+      background-color: white;
+      line-height: 54px;
+      padding: 0 15px;
+      border-radius: 20px;
+  }
+  
+  input{
+    width: 100%;
+    height: 44px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  
+  .password{
+    position: relative;
+  }
+  
+  .eye{
+    position: absolute;
+    right: 40px;
+    top: 36px;
+    cursor: pointer;
+  }
+  
+  button{
+   padding: 5px 20px;
+   margin-top: 30px;
+   background-color: #f27d5d;
+   color: white;
+  }
+
+  
